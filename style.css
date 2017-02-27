@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+ }
+
+body {
+	text-align: center;
+	background-image: url(https://cdn.pixabay.com/photo/2012/12/25/08/34/wood-72380_1280.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Arial';
+}
+
+button {
+	border-style: none;
+	color: #fff;
+	border-radius: 3px;
+	background-color: #333;
+	padding: 2px 6px 4px 6px;
+	font-size: 14px;
+}
+
+button:hover {
+	background-color: #555;
+}
+
+.board {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.board h1 {
+	margin: 30px 0 10px 0;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.board .create-column {
+	font-size: 16px;
+}
+
+.board .column-container {
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 3%;
+}
+
+.board .column-container .column {
+	display: block;
+	margin: 10px;
+	float: left;
+	width: 350px;
+	min-height: 300px;
+	background-color: #f0edc3;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+	-webkit-box-shadow: 5px 5px 10px #333;
+	-moz-box-shadow: 5px 5px 10px #333;
+	box-shadow: 5px 5px 10px #333;
+}
+
+.board .column-container .column .column-title {
+	margin: 10px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.board .column-container .column .btn-delete {
+	padding: 2px 6px 4px 6px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.board .column-container .column .card-list {
+	margin: 20px auto;
+	margin-left: 20px;
+	list-style-type: none;
+	text-align: center;
+	min-height: 200px;
+}
+
+.board .column-container .column .card-list .card {
+	margin: 0 20px 10px 0;
+	position: relative;
+	min-height: 22px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: left;
+	padding: 5px 20px 0 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
